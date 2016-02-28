@@ -1,0 +1,121 @@
+body {
+	font-size: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input {
+	display: block;
+	margin-bottom: 2%;
+	width: 20%;
+}
+
+
+.columnsContainer {
+	font-family: sans-serif;
+	width: 70%;
+	margin: auto;
+}
+
+.userContainer {
+	display: inline-block;
+	width: 20%;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.userContainer ul {
+    padding-left: 20px;
+    text-align: inherit;
+}
+
+.userContainer li {
+	margin: 5px;
+}
+
+.userAvatar {
+	width: 100%;
+	border-radius: 5%;
+}
+
+.userName {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.userLogin {
+	font-weight: lighter;
+	color: darkgrey;
+	margin: 0px 0px;
+	border-bottom: lightgray solid 1px;
+}
+
+
+.repoContainer {
+	display: inline-block;
+	width: 75%;
+	margin: 0 20px;
+}
+
+.repoItem {
+	border-bottom: lightgray solid 1px;
+	padding: 0px;
+	margin-left: 5%;
+	position: relative;
+}
+
+.repoName {
+	display: inline-block;
+	font-size: 20px;
+	color:	#4078C0;
+
+}
+
+.repoDesc {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: gray;
+	width: 80%;
+}
+
+.updatedAt {
+	font-size: 12px;
+	color: darkgrey;
+}
+
+.language {
+	font-weight: bold;
+	display: inline-block;
+	font-size: 14px;
+	color: gray;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+.language p {
+	
+	text-align: right;
+}
+
+.faves {
+	border-top: lightgray solid 1px;
+	border-bottom: lightgray solid 1px;
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+}
+
+.faves h1 {
+	color: #4078C0;
+	margin-bottom: 0px;
+}
+
+.faves p {
+	margin-top: 0px;
+	font-size: 12px;
+	color:	darkgray;
+}

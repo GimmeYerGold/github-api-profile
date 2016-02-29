@@ -47,6 +47,7 @@ pinkyPromiseRepo.then(showRepoData)
 
 var controller = function() {
 	var hash = location.hash.substr(1)
+	username = hash
 	newRepoHTMLstring = ""
 	doRequest(hash)
 

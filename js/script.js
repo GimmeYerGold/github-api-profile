@@ -5,7 +5,7 @@ console.log("hello")
 var rootUrl = "https://api.github.com/users/"
 var userName = "gimmeyergold"
 var baseUrl = rootUrl + userName
-var reposUrl = baseUrl + "/repos"
+var reposUrl = rootUrl + userName + "/repos"
 
 
 
@@ -47,7 +47,10 @@ pinkyPromiseRepo.then(showRepoData)
 
 var controller = function() {
 	var hash = location.hash.substr(1)
+	newRepoHTMLstring = ""
 	doRequest(hash)
+
+// "hash" used to be "query" but was not refreshing the page. Since changing it, it seems to work okay!	
 }
 
 // search function to pass user search in as a hash
